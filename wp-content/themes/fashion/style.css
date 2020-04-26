@@ -1,0 +1,473 @@
+/*
+Theme Name: Fashion
+Text Domain: Fashion
+Version: 1.0
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Author: Asibul Islam
+Author URI: https://asibulislam.com/
+Theme URI: https://asibulislam.com/fashion
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    background-color: #59b210;
+    color: #ffffff;
+}
+.woocommerce a.added_to_cart {
+    padding-top: .5em;
+    display: inline-block;
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    background: #3a3e42;
+    left: 0;
+    bottom: 0;
+    width: 120px;
+    padding: 6px 10px 6px;
+    border-radius: 5px;
+}
+
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover {
+    background: #3a3e42;
+    color: #fff;
+}
+/*For index Add to cart button*/
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    font-size: 100%;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    padding: .618em 1em;
+    font-weight: 700;
+    border-radius: 3px;
+    left: auto;
+    color: #fffefe;
+    background-color: #59b210;
+    border: 0;
+    display: inline-block;
+    background-image: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+a.added_to_cart.wc-forward{
+    padding-top: .5em;
+    display: inline-block;
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    background: #3a3e42;
+    left: 0;
+    bottom: 0;
+    width: 120px;
+    padding: 6px 10px 6px;
+    border-radius: 5px;
+}
+
+
+a.button.product_type_grouped, a.button.product_type_external, a.button.product_type_variable.add_to_cart_button{
+    font-size: 100%;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    padding: .618em 1em;
+    font-weight: 700;
+    border-radius: 3px;
+    left: auto;
+    color: #fffefe;
+    background-color: #59b210;
+    border: 0;
+    display: inline-block;
+    background-image: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.woocommerce ul.products li.product h3 {
+    color:#333;
+    font-size: 15px;
+}
+.woocommerce .star-rating span::before {
+    color: gold;
+}
+.woocommerce ul.products li.product .price {
+    font-size: 14px;
+    font-weight: 700;
+    width: 250px;
+    text-decoration: none;
+}
+
+.woocommerce ul.products li.product .price del {
+    color: #d3d3d3;
+    display: inline-block;
+    float: right;
+    font-weight: normal;
+    opacity: 1;
+    width: 75%;
+}
+
+.pagination-container{
+    float: right;
+}
+
+.filters-container .pagination-container ul li a.next.page-numbers, .filters-container .pagination-container ul li a.prev.page-numbers{
+    color: #666666;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0 10px;
+    background: #ddd;
+}
+
+.filters-container .pagination-container ul li:hover a.next.page-numbers, .filters-container .pagination-container ul li:hover a.prev.page-numbers{
+    color: #666666;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0 10px;
+    background: #59b210;
+}
+
+select#woocommerce-sort-by-columns {
+    padding: 5px 20px;
+    border: 1px solid #ddd;
+}
+
+select.orderby {
+    padding: 5px 20px;
+    border: 1px solid #ddd;
+}
+
+.middle{
+    float: right;
+}
+
+
+.woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images {
+    width: 38%;
+}
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+    width: 58%;
+}
+
+.woocommerce div.product div.images img {
+    border: 1px solid #ddd;
+}
+
+#owl-single-product-thumbnails{
+    margin-top: 15px;
+}
+
+#owl-single-product-thumbnails .owl-item {
+    margin-right: 2px;
+}
+
+#owl-single-product-thumbnails .owl-item img{
+    width: 89%;
+}
+
+.cart-single-page .quantity{
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.cart-single-page input.input-text.qty.text{
+    padding: 5px 10px;
+}
+
+.cart-single-page .btn.btn-primary{
+    margin-top: -3px;
+}
+
+h1.product_title.entry-title {
+    font-weight: bold;
+}
+
+.woocommerce .woocommerce-product-rating .star-rating {
+    margin: .5em 40px 0 0;
+}
+
+.entry-summary .price ins .woocommerce-Price-amount{
+    color: #ff7878;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    float: left;
+    margin-right: 5px;
+}
+
+.entry-summary .price del .woocommerce-Price-amount{
+    color: #aaa;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+    text-decoration: line-through;
+    float: right;
+}
+
+.woocommerce div.product p.price, .woocommerce div.product span.price {
+    color: #77a464;
+    font-size: 1.25em;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 5px 0;
+    padding: 20px 0;
+}
+
+.woocommerce div.product p.stock {
+    font-size: 13px;
+    color: #ff7878;
+    padding-top: 20px;
+}
+
+.woocommerce-product-details__short-description {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+
+ul.tabs.wc-tabs {
+    float: left;
+    width: 15%;
+    margin: 5px;
+}
+
+.woocommerce-Tabs-panel {
+    float: right;
+    width: 80%;
+    padding: 30px;
+}
+
+ul.tabs.wc-tabs li {
+    background: #eee;
+    padding: 15px 20px;
+    margin-bottom: 1px;
+    font-weight: 700;
+    color: #555;
+}
+
+ul.tabs.wc-tabs li.active {
+    background: #66ad44;
+}
+
+
+.featured-product .products {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding:5px;
+}
+
+
+ul.tabs.wc-tabs li.active a {
+    color: white;
+}
+
+ul.tabs.wc-tabs li:hover {
+    background: #66ad44;
+}
+
+ul.tabs.wc-tabs li:hover a {
+    color: white;
+}
+
+
+/*For category Menu*/
+
+ul.links .dropdown-content {
+  background-color: #fff;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+/* Create three equal columns that floats next to each other */
+ul.links .dropdown-content .row .column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  background-color: #fff;
+}
+
+
+ul.links .dropdown-content .row .column h3{
+    font-weight: 800;
+    font-size: 22px;
+    color: #000;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 8px;
+}
+
+ul.links .dropdown-content .row .column a {
+  float: none;
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  line-height: 26px;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul.links .dropdown-content .row .column a:hover {
+  background-color: #fff;
+}
+
+ul.links .dropdown-content .row {
+  background-color: #fff;
+}
+
+/* Clear floats after the columns */
+ul.links .dropdown-content .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  ul.links .dropdown-content .row .column {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+/*Style for logo*/
+.logo img{
+    width: 250px;
+    height: 50px;
+    
+}
+
+/*For search bar*/
+body .control-group .dgwt-wcas-search-wrapp{
+    max-width: 100%;
+}
+
+body .dgwt-wcas-sf-wrapp button.dgwt-wcas-search-submit {
+    background-color: #59b210;
+}
+
+body .dgwt-wcas-sf-wrapp .dgwt-wcas-search-submit:before {
+    border-color: transparent #59b210 transparent;
+}
+
+
+.header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a:hover{
+    background: #fff;
+    border-radius: 3px 3px 0px 0px;
+    color: #333;
+}
+.header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav > li:active{
+    background: #59b210;
+}
+
+div.nav-outer .current-menu-item {
+    background: #59b210;
+}
+
+
+.sidebar .side-menu nav .nav > li > .mega-menu {
+  min-width: 340%;
+}
+
+body .wp-megamenu-main-wrapper.wpmm-orientation-vertical{
+    width: 100%;
+}
+
+/*For Featured Product Image Style*/
+.product .product-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.custom-carousel .owl-controls {
+    display: block;
+}
+
+
+/*star rating for products*/
+.rating-custom div.product .woocommerce-product-rating {
+    margin-bottom: 1.618em;
+}
+
+.rating-custom .woocommerce-product-rating .star-rating {
+    margin: .5em 4px 0 0;
+    float: left;
+}
+
+.rating-custom .woocommerce-product-rating::after, .rating-custom .woocommerce-product-rating::before {
+
+    content: ' ';
+    display: table;
+
+}
+
+.rating-custom .woocommerce-product-rating {
+    line-height: 2;
+}
+
+.rating-custom .star-rating {
+    float: right;
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1;
+    font-size: 1em;
+    width: 5.4em;
+    font-family: star;
+}
+
+.rating-custom .star-rating::before {
+    content: '\73\73\73\73\73';
+    color: #d3ced2;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.rating-custom .star-rating {
+    line-height: 1;
+    font-size: 1em;
+    font-family: star;
+}
+
+.rating-custom .star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+    color: gold;
+}
+
+.rating-custom .star-rating span::before {
+    content: '\53\53\53\53\53';
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+
+.rating-custom .star-rating span {
+
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+
+}
